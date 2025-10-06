@@ -21,7 +21,7 @@ void imprimir_ponto(ponto *p)
 int main(void)
 {
     ponto p;
-    ler_estrutura(&p);
+    ler_estrutura(&p); // Usando & temos um ponteiro que aponta para o endereço de memória do ponto p
     imprimir_ponto(&p);
     return 0;
 }
